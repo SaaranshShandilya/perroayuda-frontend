@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Nunito&family=Pacifico&display=swap');
+
+.fade-anim img {
+  animation: fadeAnim 0.5s ease-out;
+}
+@keyframes fadeAnim {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
