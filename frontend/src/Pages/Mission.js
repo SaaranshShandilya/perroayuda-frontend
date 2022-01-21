@@ -32,11 +32,11 @@ const Mission = () => {
         </div>
         
       </div>
-      <div className="mx-40 mt-12 grid grid-cols-2 gap-10">
+      <div className="sm:mx-40 mt-12 sm:grid sm:grid-cols-2 gap-10">
           <div>
           <h1 className="text-3xl text-slate-800">Become A Helping Hand</h1>
           <p className="font-bold mt-2 text-xl text-slate-500">Join Perroayuda Welfare Foundation</p>
-          <div className="grid grid-cols-2 gap-4 mt-8">
+          <div className="sm:grid sm:grid-cols-2 sm:gap-4 mt-8">
               <div>
                   <p className="flex text-2xl  text-slate-800 font-semibold"><CgSmileMouthOpen className="text-amber-400 text-6xl mr-2"/> <p className="mt-4">Feed Strays</p></p>
                   <p className="ml-16 text-md">Our motive is that everyone should start feeding their own locality strays and to save them from dying.</p>
@@ -52,11 +52,11 @@ const Mission = () => {
           </div>
           </div>
           <div>
-              <img className='border h-5/6 mt-4 ml-8 border border-transparent rounded-xl' src={missiondog} alt=''></img>
+              <img className='border h-5/6 mt-4 sm:ml-8  border-transparent rounded-xl' src={missiondog} alt=''></img>
           </div>
       </div>
       <div className="bg-zinc-100">
-          <div className="grid mx-40 mb-16 grid-cols-2 gap-10">
+          <div className="sm:grid sm:mx-40 mb-16 sm:grid-cols-2 gap-10">
               <div>
                   <img className="my-12 border border-transparent rounded-xl h-4/5" src={missiondog2} alt=''></img>
               </div>
@@ -64,7 +64,7 @@ const Mission = () => {
                   <p className="text-3xl font-semibold text-slate-800">Our Volunteers are Feeding</p>
                   <p className="mt-2 text-xl font-bold text-slate-500 ">1000+ Stray Animals Everyday</p>
                   <p className="mt-4 text-xl font-semibold text-amber-600">Join us in this wonderful initiative of feeding your own locality strays.</p>
-                  <div className="grid grid-cols-2 mt-8 gap-8">
+                  <div className="sm:grid sm:grid-cols-2 mt-8 gap-8">
                       <div>
                           <p className="text-7xl text-center text-red-600 font-bold"><CountUp end={500} delay={3}/>+</p>
                           <p className="text-red-500 text-center mt-2 text-xl">Volunteers</p>
