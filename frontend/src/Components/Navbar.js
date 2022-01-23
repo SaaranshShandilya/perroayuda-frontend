@@ -12,7 +12,7 @@ export default function NavBar() {
     <nav className="md:flex justify-between items-center bg-white shadow-xl  bg-transparent  top-0 z-20">
       <div className="flex items-center justify-between">
         <Link to="/">
-          <img className="ml-8 p-2" src={logo} alt="logo" />
+          <img className="ml-32 p-2 w-28" src={logo} alt="logo" />
         </Link>
 
 
@@ -37,9 +37,9 @@ export default function NavBar() {
       >
         <div className="bg-amber-400 px-4 py-2 border border-xl rounded-xl hover:bg-sky-500 border-transparent"><NavItem  content="Home" href="/" /></div>
         <div className="bg-amber-400 px-4 py-2 border border-xl rounded-xl hover:bg-sky-500 border-transparent"><NavItem content="Our Mission" href="/faq-page/" /></div>
-        <div className="bg-amber-400 px-4 py-2 border border-xl rounded-xl hover:bg-sky-500 border-transparent"><NavItem content="Blogs" href="/contact" /></div>
+        <div className="bg-amber-400 px-4 py-2 border border-xl rounded-xl hover:bg-sky-500 border-transparent"><NavItem content="Blogs" href="/blogs/" /></div>
         <div className="bg-amber-400 px-4 py-2 border border-xl rounded-xl hover:bg-sky-500 border-transparent"><NavItem content="About Us" href="/about-us" /></div>
-        <div className="bg-amber-400 px-4 py-2 border border-xl rounded-xl hover:bg-sky-500 border-transparent"><NavItem content="Events" href="/contact" /></div>
+        <div className="bg-amber-400 px-4 py-2 border border-xl rounded-xl hover:bg-sky-500 border-transparent"><NavItem content="Events" href="/events" /></div>
         <div className="bg-amber-400 px-4 py-2 border border-xl rounded-xl hover:bg-sky-500 border-transparent"><NavItem content="Contact Us" href="/contact" /></div>
         <div className="bg-amber-400 px-4 py-2 border border-xl rounded-xl hover:bg-sky-500 border-transparent"><NavItem content="Pincode Search" href="/about" /></div>
 

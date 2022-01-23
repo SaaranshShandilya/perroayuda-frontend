@@ -66,7 +66,7 @@ const Home = () => {
         </div>
         <div
           data-aos="fade-right"
-          className="bg-blue-800 sm:ml-44 border border-transparent sm:flex rounded rounded-2xl sm:mr-44 text-white mt-8"
+          className="bg-blue-800 sm:ml-44 border border-transparent sm:flex  rounded-2xl sm:mr-44 text-white mt-8"
         >
           <h1 className="font-bold m-4 ml-8 pt-4 text-3xl ">
             Monthly Emergency Funds{" "}
@@ -83,7 +83,7 @@ const Home = () => {
         </div>
         <div
           data-aos="fade-left"
-          className="bg-orange-600 sm:ml-44 border border-transparent sm:flex rounded rounded-2xl sm:mr-44 text-white mt-8"
+          className="bg-orange-600 sm:ml-44 border border-transparent sm:flex  rounded-2xl sm:mr-44 text-white mt-8"
         >
           <h1 className="font-bold m-4 ml-8 pt-4 text-3xl ">
             Join Us Today!{" "}
@@ -196,7 +196,7 @@ const Home = () => {
       <div className="pt-2 mb-8 bg-emerald-300">
         <img src={help} alt="" className=""></img>
       </div>
-      <div className="sm:grid sm:grid-cols-4 sm:gap-8 text-center sm:mx-48 my-8">
+      <div className="sm:grid sm:grid-cols-4 sm:gap-8 text-center sm:mx-48 my-24">
         <div className="border rounded-md border-amber-400 ">
           <p className="text-amber-400 mt-4 ml-24 text-7xl">
             <FaHandshake />
