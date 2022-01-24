@@ -1,10 +1,14 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import NavBar from '../Components/Navbar';
 import dog2 from '../images/dog2.png';
 import post1 from '../images/post1.png';
 import {BiSearchAlt} from 'react-icons/bi'
 import { Footer } from '../Components/Footer';
 const Blogs = () => {
+    useEffect(() => {
+        document.title = 'Blogs - PerroAyuda'
+        window.scrollTo(0,0);
+    },[])
   return (
   <div>
       <NavBar/>

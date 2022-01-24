@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import NavBar from '../Components/Navbar';
 import dog2 from '../images/dog2.png';
 import {FiNavigation} from 'react-icons/fi'
@@ -10,6 +10,11 @@ import map from '../images/map.png';
 import { Footer } from '../Components/Footer';
 
 const Contact = () => {
+
+  useEffect(() => {
+    document.title = 'Contact Us - PerroAyuda';
+    window.scrollTo(0,0);
+  },[])
 
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');

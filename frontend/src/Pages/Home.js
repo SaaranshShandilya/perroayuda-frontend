@@ -1,8 +1,9 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Navbar from "../Components/Navbar";
 import DogVid from "../images/dogvid.mp4";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import {Link} from 'react-router-dom'
 import Slider from "../Components/Slider";
 import card1 from "../images/card1.png";
 import card2 from "../images/card2.png";
@@ -19,6 +20,10 @@ const Home = () => {
     duration: 3000,
   });
 
+  useEffect(() =>{
+    document.title = 'Home - PerroAyuda'
+    window.scrollTo(0,0);
+  },[])
   
   return (
     <div>
@@ -57,28 +62,30 @@ const Home = () => {
       </div>
       <div div className="bg-red-300  py-4">
         <div style={{ textAlign: "center" }}>
-          <button
+          <Link to="/donate"><button
             data-aos="fade-up"
             className="mt-8 bg-emerald-500 py-4 sm:px-40 border px-16  hover:bg-emerald-400 border-transparent rounded-xl text-white text-2xl font-bold"
           >
             DONATE NOW
           </button>
+          </Link>
         </div>
         <div
           data-aos="fade-right"
           className="bg-blue-800 sm:ml-44 border border-transparent sm:flex  rounded-2xl sm:mr-44 text-white mt-8"
         >
           <h1 className="font-bold m-4 ml-8 pt-4 text-3xl ">
-            Monthly Emergency Funds{" "}
+            Monthly Emergency Funds
             <p className="text-xl mt-4 pb-4">
               Become a helping hand to our organisation.
             </p>
           </h1>
 
           <div className="sm:ml-12" style={{ textAlign: "center" }}>
-            <button className="bg-amber-400  border rounded-xl border-transparent sm:ml-96 sm:mt-12 mb-4 shadow-xl py-2 px-4 text-xl">
+            <Link to="/donate"><button className="bg-amber-400  border rounded-xl border-transparent sm:ml-96 sm:mt-12 mb-4 shadow-xl py-2 px-4 text-xl">
               Donate Now
             </button>
+            </Link>
           </div>
         </div>
         <div
@@ -86,16 +93,18 @@ const Home = () => {
           className="bg-orange-600 sm:ml-44 border border-transparent sm:flex  rounded-2xl sm:mr-44 text-white mt-8"
         >
           <h1 className="font-bold m-4 ml-8 pt-4 text-3xl ">
-            Join Us Today!{" "}
+            Join Us Today!
             <p className="text-xl mt-4 pb-4">
               Be a part of our organisationand help the strays!
             </p>
           </h1>
 
           <div style={{ textAlign: "center" }}>
+            <Link to='/registration'>
             <button className="bg-stone-800  border rounded-xl border-transparent sm:ml-96 sm:mt-12 mb-4 shadow-xl py-2 px-4 text-xl">
               Join Us Now
             </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -115,7 +124,7 @@ const Home = () => {
               We frequently organize fun feeding drives in different areas to
               raise awareness for the welfare of stray animals.
             </p>
-            <button className="bg-green-500 py-2 px-4 my-4">Know More</button>
+            <Link to="/"><button className="bg-green-500 py-2 px-4 my-4">Know More</button></Link>
           </div>
           <div
             data-aos="flip-left"
@@ -131,7 +140,7 @@ const Home = () => {
               We are currently recusing stray animals on a daily basis and we
               provide them with the best treatment.
             </p>
-            <button className="bg-purple-500 py-2 px-4 my-4">Know More</button>
+            <Link to='/'><button className="bg-purple-500 py-2 px-4 my-4">Know More</button></Link>
           </div>
           <div
             data-aos="flip-right"
@@ -147,7 +156,7 @@ const Home = () => {
               We help stray animals to get their permanent home and to help them
               find a forever loving family.
             </p>
-            <button className="bg-red-500 py-2 px-4 my-4">Know More</button>
+            <Link to='/adoption'><button className="bg-red-500 py-2 px-4 my-4">Know More</button></Link>
           </div>
           <div
             data-aos="flip-right"
@@ -163,14 +172,14 @@ const Home = () => {
               We have recently launched our internship program to help college
               students with certificates and LOR.
             </p>
-            <button className="bg-cyan-500 py-2 px-4 my-4">Know More</button>
+            <Link to='internship-program'><button className="bg-cyan-500 py-2 px-4 my-4">Know More</button></Link>
           </div>
         </div>
       </div>
       <div className="bg-emerald-300  py-4">
         <div className="sm:mx-40 mt-8">
           <h1 className="text-3xl flex text-slate-700">
-            Our volunteers are{" "}
+            Our volunteers are
             <p className="font-bold ml-2 text-black">Feeding</p>
           </h1>
           <p className="text-xl font-bold text-slate-700 mt-2">
@@ -198,7 +207,7 @@ const Home = () => {
       </div>
       <div className="sm:grid sm:grid-cols-4 sm:gap-8 text-center sm:mx-48 my-24">
         <div className="border rounded-md border-amber-400 ">
-          <p className="text-amber-400 mt-4 ml-24 text-7xl">
+          <p className="text-amber-400 mt-4 sm:ml-24 ml-36 text-7xl">
             <FaHandshake />
           </p>
           <p className="text-3xl m-4 font-bold ">Become a Volunteer</p>
@@ -208,7 +217,7 @@ const Home = () => {
           </p>
         </div>
         <div className="border rounded-md border-amber-400 ">
-          <p className="text-amber-400 mt-4 ml-24 text-7xl">
+          <p className="text-amber-400 mt-4 sm:ml-24 ml-36 text-7xl">
             <FaDonate />
           </p>
           <p className="text-3xl m-4 font-bold">Donate</p>
@@ -217,7 +226,7 @@ const Home = () => {
           </p>
         </div>
         <div className="border rounded-md border-amber-400 ">
-          <p className="text-amber-400 mt-4 ml-24 text-7xl">
+          <p className="text-amber-400 mt-4 sm:ml-24 ml-36 text-7xl">
             <MdOutlineWorkOutline />
           </p>
           <p className="text-3xl m-4 font-bold">Work with PWF</p>
@@ -227,7 +236,7 @@ const Home = () => {
           </p>
         </div>
         <div className="border rounded-md border-amber-400 ">
-          <p className="text-amber-400 mt-4 ml-24 text-7xl">
+          <p className="text-amber-400 mt-4 sm:ml-24 ml-36 text-7xl">
             <SiSlideshare />
           </p>
           <p className="text-3xl m-4 font-bold">Share</p>

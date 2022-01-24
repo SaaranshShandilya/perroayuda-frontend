@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import NavBar from '../Components/Navbar';
 import dog2 from '../images/dog2.png';
 import missiondog from '../images/missiondog.png';
@@ -10,6 +10,11 @@ import missiondog2 from '../images/missiondog2.png';
 import CountUp from "react-countup";
 import { Footer } from '../Components/Footer';
 const Mission = () => {
+
+    useEffect(() => {
+        document.title='Our Mission - PerroAyuda';
+        window.scrollTo(0,0);
+    },[])
   return (
   <div>
       <NavBar/>

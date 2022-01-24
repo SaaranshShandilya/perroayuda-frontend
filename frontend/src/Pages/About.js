@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import NavBar from '../Components/Navbar';
 import dog2 from '../images/dog2.png';
 import about1 from '../images/about1.png'; 
@@ -15,6 +15,11 @@ import {FaRegHandScissors} from 'react-icons/fa'
 import {RiTeamFill} from 'react-icons/ri'
 import { Footer } from '../Components/Footer';
 const About = () => {
+    
+    useEffect(() => {
+        document.title='About Us - PerroAyuda'
+        window.scrollTo(0, 0)
+      }, [])
   return (
   <div>
       <NavBar/>

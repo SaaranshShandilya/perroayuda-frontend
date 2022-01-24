@@ -11,6 +11,7 @@ import { BsYoutube } from "react-icons/bs";
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsGlobe} from 'react-icons/bs'
 import razorpay from '../images/razorpay.png';
+import {Link } from 'react-router-dom';
 
 export const Footer = () => {
     
@@ -50,7 +51,7 @@ export const Footer = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 type="email"
-                className="p-4 border mt-2 rounded-xl border-2 hover:border-black focus:border-blue-400 focus:outline-none"
+                className="p-4  mt-2 rounded-xl border-2 hover:border-black focus:border-blue-400 focus:outline-none"
               ></input>
               <button
                 type="button"
@@ -66,11 +67,11 @@ export const Footer = () => {
               IMPORTANT LINKS
             </h1>
             <ul className="list-disc ml-8 mt-4">
-              <li className="hover:text-amber-500">Home</li>
-              <li className="hover:text-amber-500">Our Mission</li>
-              <li className="hover:text-amber-500">Blogs</li>
-              <li className="hover:text-amber-500">About Us</li>
-              <li className="hover:text-amber-500">Conact Us</li>
+              <Link to = '/'><li className="hover:text-amber-500">Home</li></Link>
+              <Link to='/faq-page'><li className="hover:text-amber-500">Our Mission</li></Link>
+              <Link to='/blogs'><li className="hover:text-amber-500">Blogs</li></Link>
+              <Link to='/about-us'><li className="hover:text-amber-500">About Us</li></Link>
+              <Link to='/contact'><li className="hover:text-amber-500">Contact Us</li></Link>
               <li className="hover:text-amber-500">Shop</li>
               <li className="hover:text-amber-500">Pincode Search</li>
               <li className="hover:text-amber-500">District Search</li>
@@ -81,14 +82,14 @@ export const Footer = () => {
               CONNECT WITH US
             </h1>
             <p className="flex space-x-8 mt-4 text-xl">
-              <GrFacebookOption className="border border-transparent rounded-xl text-2xl hover:bg-blue-300" />
-              <FaTwitter className="border border-transparent rounded-xl  hover:bg-blue-300"></FaTwitter>
-              <GrLinkedinOption className="border border-transparent rounded-md  hover:bg-blue-300"></GrLinkedinOption>
-              <BsInstagram className="border border-transparent rounded-md  hover:bg-red-300"></BsInstagram>
-              <BsYoutube className="border border-transparent rounded-md  hover:bg-red-300"></BsYoutube>
+              <a href='https://www.facebook.com/perroayudawelfarefoundation'><GrFacebookOption className="border border-transparent rounded-xl text-2xl hover:bg-blue-300" /></a>
+              <a href='https://twitter.com/perroayuda'><FaTwitter className="border border-transparent rounded-xl  hover:bg-blue-300"></FaTwitter></a>
+              <a href='https://www.linkedin.com/company/perroayuda-welfare-foundation/'><GrLinkedinOption className="border border-transparent rounded-md  hover:bg-blue-300"></GrLinkedinOption></a>
+              <a href='https://www.instagram.com/perroayuda/'><BsInstagram className="border border-transparent rounded-md  hover:bg-red-300"></BsInstagram></a>
+              <a href='https://www.youtube.com/channel/UCyQ68xX92ND8aR0IY85MJ8A'><BsYoutube className="border border-transparent rounded-md  hover:bg-red-300"></BsYoutube></a>
             </p>
-            <p className="flex mt-8 "><HiOutlineMail className="text-xl mr-2"></HiOutlineMail>info@perroayuda.org</p>
-            <p className="flex mt-2"><BsGlobe className="text-xl mr-2"></BsGlobe>www.perroayuda.org</p>
+            <a href='mailto:info@perroayuda.org'><p className="flex mt-8 hover:text-amber-500"><HiOutlineMail className="text-xl mr-2"></HiOutlineMail>info@perroayuda.org</p></a>
+            <Link to='/contact'><p className="flex mt-2 hover:text-amber-500"><BsGlobe className="text-xl mr-2"></BsGlobe>www.perroayuda.org</p></Link>
             <img src={razorpay} className="w-40" alt=""></img>
           </div>
           

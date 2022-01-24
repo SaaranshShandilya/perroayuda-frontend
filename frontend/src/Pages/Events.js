@@ -1,9 +1,14 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Footer } from "../Components/Footer";
 import NavBar from "../Components/Navbar";
 import dog2 from "../images/dog2.png";
 
 const Events = () => {
+
+  useEffect(() =>{
+    document.title = 'Events - PerroAyuda';
+    window.scrollTo(0,0);
+  },[])
   return (
     <div>
       <NavBar />
@@ -23,8 +28,7 @@ const Events = () => {
         ></img>
         <div className="bg-zinc-800 text-center bg-opacity-60 ">
           <h1 className="text-white font-bold text-4xl  ml-8 pt-40">
-            {" "}
-            Events{" "}
+            Events
           </h1>
           <p className=" text-white text-xl mt-8 ml-8 pb-40">Home / Events</p>
         </div>

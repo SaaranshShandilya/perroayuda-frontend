@@ -7,6 +7,7 @@ import image3 from '../images/carasoul4.png';
 
 import {AiOutlineArrowRight, AiOutlineArrowLeft} from 'react-icons/ai'
 const images=[image0, image1, image2, image3]
+const links = ['/','/','/','/about-us/']
 let count = 0;
 const Slider = () => {
 
@@ -39,10 +40,11 @@ const Slider = () => {
         slideRef.current.classList.add("fade-anim");
     }
   return (
-    <div className="max-w-screen-xl shadow-2xl m-auto">
+    <div className=" shadow-2xl m-auto">
     <div ref={slideRef} className="w-full relative select-none">
     <div className="aspect-w-20 aspect-h-9">
-      <img className="w-full my-8  border border-transparent rounded-2xl" src={images[currentIndex]} alt="" />
+
+      <a href={links[currentIndex]}><img className="w-full my-8  border border-transparent rounded-2xl" src={images[currentIndex]} alt="" /></a>
       </div>
       <div className="absolute w-full top-1/2 transform -translate-y-1/2 flex justify-between items-start px-3">
         <button className="text-4xl text-white ml-4" onClick={handlePrevious}><AiOutlineArrowLeft/></button>

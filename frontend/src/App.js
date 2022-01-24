@@ -6,6 +6,8 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Blogs from './Pages/Blogs';
 import Events from './Pages/Events';
+import Donate from './Pages/Donate';
+import Registration from './Pages/Registration';
 function App() {
   return (
     <BrowserRouter>
@@ -16,6 +18,8 @@ function App() {
       <Route exact path="/contact/" element={<Contact/>}/>
       <Route exact path="/blogs/" element={<Blogs/>}/>
       <Route exact path="/events/" element={<Events/>}/>
+      <Route exact path="/donate/" element={<Donate/>}/>
+      <Route exact path="/registration/" element={<Registration/>}/>
     </Routes>
     </BrowserRouter>
   );
