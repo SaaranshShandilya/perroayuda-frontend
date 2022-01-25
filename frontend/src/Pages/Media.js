@@ -15,7 +15,7 @@ const Media = () => {
 
   
   const[size,setSize] = React.useState(window.innerWidth)
-  const[speed, setSpeed] = React.useState(-5)
+  const[speed, setSpeed] = React.useState(-18)
 
   const checkSize = () => {
     setSize(window.innerWidth);
