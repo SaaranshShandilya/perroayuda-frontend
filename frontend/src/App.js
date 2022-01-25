@@ -9,8 +9,10 @@ import Events from './Pages/Events';
 import Donate from './Pages/Donate';
 import Registration from './Pages/Registration';
 import Media from './Pages/Media';
+import { ParallaxProvider } from 'react-scroll-parallax';
 function App() {
   return (
+    <ParallaxProvider>
     <BrowserRouter>
     <Routes>
       <Route exact path="/" element={<Home/>}/>
@@ -24,6 +26,7 @@ function App() {
       <Route exact path="/media/" element={<Media/>}/>
     </Routes>
     </BrowserRouter>
+    </ParallaxProvider>
   );
 }
 
