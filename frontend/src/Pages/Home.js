@@ -8,7 +8,7 @@ import Slider from "../Components/Slider";
 import card1 from "../images/card1.png";
 import card2 from "../images/card2.png";
 import card3 from "../images/card3.png";
-import card4 from "../images/card4.png";
+import card4 from "../images/media1.png";
 import CountUp from "react-countup";
 import help from "../images/help.png";
 import { FaHandshake, FaDonate } from "react-icons/fa";
@@ -163,16 +163,15 @@ const Home = () => {
             className="bg-cyan-700 text-center border border-transparent rounded-xl text-white"
           >
             <img
-              className="border border-transparent rounded-xl object-fill w-96"
+              className="border border-transparent rounded-xl h-40 object-fill w-96"
               src={card4}
               alt=""
             ></img>
-            <h1 className="text-2xl font-bold my-4">Recruitment</h1>
+            <h1 className="text-2xl font-bold my-4 ">Media Outreach</h1>
             <p className="text-lg m-4 ">
-              We have recently launched our internship program to help college
-              students with certificates and LOR.
+              We as an NGO are proud about all the media coverage we have recieved. 
             </p>
-            <Link to='internship-program'><button className="bg-cyan-500 py-2 px-4 my-4">Know More</button></Link>
+            <Link to='media'><button className="bg-cyan-500 py-2 px-4 my-8">Know More</button></Link>
           </div>
         </div>
       </div>

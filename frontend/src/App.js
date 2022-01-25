@@ -8,6 +8,7 @@ import Blogs from './Pages/Blogs';
 import Events from './Pages/Events';
 import Donate from './Pages/Donate';
 import Registration from './Pages/Registration';
+import Media from './Pages/Media';
 function App() {
   return (
     <BrowserRouter>
@@ -20,6 +21,7 @@ function App() {
       <Route exact path="/events/" element={<Events/>}/>
       <Route exact path="/donate/" element={<Donate/>}/>
       <Route exact path="/registration/" element={<Registration/>}/>
+      <Route exact path="/media/" element={<Media/>}/>
     </Routes>
     </BrowserRouter>
   );
