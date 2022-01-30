@@ -22,8 +22,6 @@ const Media = () => {
     
   }
 
-
-
     React.useEffect(() => {
         AOS.init({
             duration: 3000,

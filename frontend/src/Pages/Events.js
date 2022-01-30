@@ -34,10 +34,10 @@ const Events = () => {
         </div>
       </div>
       <div className=" sm:mx-40 mt-12 ">
-        <p className="text-3xl font-semibold">
+        <p className="text-3xl text-white font-semibold">
           ‘Who feeds a hungry animal, feeds his own soul.’ – Charlie Chaplin
         </p>
-        <p className="text-xl mt-6">
+        <p className="text-xl text-white mt-6">
           When you feed a stray and they come at you wiggling their tail, isn’t
           that the best feeling in this world? PWF offers you this extraordinary
           feeling every week. Our organisation conduct weekly drives in
@@ -71,7 +71,7 @@ const Events = () => {
           the best day for both, the feeders and the strays. Their happiness and
           well being is our responsibility.
         </p>
-        <p className="text-amber-500  my-4 text-2xl font-bold">Mega Feeding Drive - 19/12/2021 - Lajpat Nagar</p>
+        <p className="text-amber-100  my-4 text-2xl font-bold">Mega Feeding Drive - 19/12/2021 - Lajpat Nagar</p>
       </div>
       <Footer/>
     </div>

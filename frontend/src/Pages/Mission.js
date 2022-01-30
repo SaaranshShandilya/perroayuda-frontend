@@ -37,21 +37,21 @@ const Mission = () => {
         </div>
         
       </div>
-      <div className="sm:mx-40 mt-12 sm:grid sm:grid-cols-2 gap-10">
+      <div className="sm:mx-40 mt-12 text-white sm:grid sm:grid-cols-2 gap-10">
           <div>
-          <h1 className="text-3xl text-slate-800">Become A Helping Hand</h1>
-          <p className="font-bold mt-2 text-xl text-slate-500">Join Perroayuda Welfare Foundation</p>
+          <h1 className="text-3xl ">Become A Helping Hand</h1>
+          <p className="font-bold mt-2 text-xl ">Join Perroayuda Welfare Foundation</p>
           <div className="sm:grid sm:grid-cols-2 sm:gap-4 mt-8">
               <div>
-                  <p className="flex text-2xl  text-slate-800 font-semibold"><CgSmileMouthOpen className="text-amber-400 text-6xl mr-2"/> <p className="mt-4">Feed Strays</p></p>
+                  <p className="flex text-2xl   font-semibold"><CgSmileMouthOpen className="text-amber-400 text-6xl mr-2"/> <p className="mt-4">Feed Strays</p></p>
                   <p className="ml-16 text-md">Our motive is that everyone should start feeding their own locality strays and to save them from dying.</p>
-                  <p className="flex text-2xl  text-slate-800 font-semibold"><AiFillHome className="text-amber-400 text-5xl mr-4"/> <p className="mt-4">Animal Shelter</p></p>
+                  <p className="flex text-2xl   font-semibold"><AiFillHome className="text-amber-400 text-5xl mr-4"/> <p className="mt-4">Animal Shelter</p></p>
                   <p className="ml-16 text-md mt-2">We are looking forward to open animal shelters for the treatment of stray animals.</p>
               </div>
               <div className="ml-4">
-              <p className="flex text-xl  text-slate-800 font-semibold"><FaAmbulance className="text-amber-400 text-6xl mr-2"/> <p className="mt-4">Animal Ambulance</p></p>
+              <p className="flex text-xl   font-semibold"><FaAmbulance className="text-amber-400 text-6xl mr-2"/> <p className="mt-4">Animal Ambulance</p></p>
               <p className="ml-16 text-md">Looking forward to have our own animal ambulance for the rescue operations.</p>
-              <p className="flex text-2xl mt-6 text-slate-800 font-semibold"><BsFillPeopleFill className="text-amber-400 text-5xl mr-4"/> <p className="mt-4">Social Welfare</p></p>
+              <p className="flex text-2xl mt-6  font-semibold"><BsFillPeopleFill className="text-amber-400 text-5xl mr-4"/> <p className="mt-4">Social Welfare</p></p>
               <p className="ml-16 text-md mt-2">We are planing to expand our areas of work, Looking forward to work for social welfare.</p>
               </div>
           </div>

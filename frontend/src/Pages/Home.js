@@ -28,7 +28,7 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <div className="bg-orange-300 py-2 ">
+      <div className=" py-2 ">
         <Slider />
       </div>
       <div className="relative">
@@ -60,7 +60,7 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <div div className="bg-red-300  py-4">
+      <div div className="  py-4">
         <div style={{ textAlign: "center" }}>
           <Link to="/donate"><button
             data-aos="fade-up"
@@ -108,14 +108,14 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="bg-amber-200 shadow-2xl py-4">
-        <div className="sm:grid sm:grid-cols-4 sm:mx-48 sm:gap-8 my-8">
+      <div className=" shadow-2xl py-4">
+        <div className="sm:grid sm:grid-cols-4 sm:mx-48   sm:gap-8 my-8">
           <div
             data-aos="flip-left"
-            className="bg-green-700 text-center border border-transparent rounded-xl text-white"
+            className="bg-green-700 text-center border border-transparent my-8 rounded-xl text-white"
           >
             <img
-              className="border border-transparent rounded-xl object-fill w-96"
+              className="border border-transparent rounded-xl object-cover w-full"
               src={card1}
               alt=""
             ></img>
@@ -128,10 +128,10 @@ const Home = () => {
           </div>
           <div
             data-aos="flip-left"
-            className="bg-purple-800 text-center border border-transparent rounded-xl text-white"
+            className="bg-purple-800 text-center border my-8 border-transparent rounded-xl text-white"
           >
             <img
-              className="border border-transparent rounded-xl object-fill w-96"
+              className="border border-transparent rounded-xl  object-fill w-full"
               src={card2}
               alt=""
             ></img>
@@ -144,10 +144,10 @@ const Home = () => {
           </div>
           <div
             data-aos="flip-right"
-            className="bg-red-700 text-center border border-transparent rounded-xl text-white"
+            className="bg-red-700 text-center border my-8 border-transparent rounded-xl text-white"
           >
             <img
-              className="border border-transparent rounded-xl object-fill w-96"
+              className="border border-transparent rounded-xl object-fill w-full"
               src={card3}
               alt=""
             ></img>
@@ -160,10 +160,10 @@ const Home = () => {
           </div>
           <div
             data-aos="flip-right"
-            className="bg-cyan-700 text-center border border-transparent rounded-xl text-white"
+            className="bg-cyan-700 text-center border my-8 border-transparent rounded-xl text-white"
           >
             <img
-              className="border border-transparent rounded-xl h-40 object-fill w-96"
+              className="border border-transparent rounded-xl h-40 object-fill w-full"
               src={card4}
               alt=""
             ></img>
@@ -175,16 +175,16 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="bg-emerald-300  py-4">
-        <div className="sm:mx-40 mt-8">
-          <h1 className="text-3xl flex text-slate-700">
+      <div className=" text-white py-4">
+        <div className="sm:mx-40  mt-8">
+          <h1 className="text-3xl flex ">
             Our volunteers are
-            <p className="font-bold ml-2 text-black">Feeding</p>
+            <p className="font-bold ml-2 ">Feeding</p>
           </h1>
-          <p className="text-xl font-bold text-slate-700 mt-2">
+          <p className="text-xl font-bold  mt-2">
             1000+ stray animals everyday
           </p>
-          <p className="text-lg mt-2 text-slate-700">
+          <p className="text-lg mt-2 ">
             Join us in this wonderful initiative of feeding your own locality
             strays.
           </p>
@@ -192,22 +192,22 @@ const Home = () => {
             <p className="text-8xl font-bold mt-8 text-red-500">
               <CountUp delay={3} end={500} />+
             </p>
-            <p className="text-2xl text-slate-700">Members</p>
+            <p className="text-2xl ">Members</p>
             <p className="text-8xl font-bold mt-8 text-red-500">
               <CountUp delay={3} end={60} />
               k₹
             </p>
-            <p className="text-2xl text-slate-700">Donation</p>
+            <p className="text-2xl ">Donation</p>
           </div>
         </div>
       </div>
       <div className="pt-2 mb-8 bg-emerald-300">
         <img src={help} alt="" className=""></img>
       </div>
-      <div className="sm:grid sm:grid-cols-4 sm:gap-8 text-center sm:mx-48 my-24">
-        <div className="border rounded-md border-amber-400 ">
-          <p className="text-amber-400 mt-4 sm:ml-24 ml-36 text-7xl">
-            <FaHandshake />
+      <div className="sm:grid sm:grid-cols-4 sm:gap-8 text-center sm:mx-48  my-24">
+        <div className="border rounded-md bg-white my-8 border-amber-400 ">
+          <p className="text-amber-400 mt-4   text-7xl">
+            <FaHandshake className='mx-auto' />
           </p>
           <p className="text-3xl m-4 font-bold ">Become a Volunteer</p>
           <p className="m-8">
@@ -215,18 +215,18 @@ const Home = () => {
             welfare of animals.
           </p>
         </div>
-        <div className="border rounded-md border-amber-400 ">
-          <p className="text-amber-400 mt-4 sm:ml-24 ml-36 text-7xl">
-            <FaDonate />
+        <div className="border rounded-md bg-white my-8 border-amber-400 ">
+          <p className="text-amber-400 mt-4  text-7xl">
+            <FaDonate className='mx-auto' />
           </p>
           <p className="text-3xl m-4 font-bold">Donate</p>
           <p className="m-8">
             Become a helping hand and donate us for the treatment of strays.
           </p>
         </div>
-        <div className="border rounded-md border-amber-400 ">
-          <p className="text-amber-400 mt-4 sm:ml-24 ml-36 text-7xl">
-            <MdOutlineWorkOutline />
+        <div className="border rounded-md bg-white my-8 border-amber-400 ">
+          <p className="text-amber-400 mt-4  text-7xl">
+            <MdOutlineWorkOutline className='mx-auto' />
           </p>
           <p className="text-3xl m-4 font-bold">Work with PWF</p>
           <p className="m-8">
@@ -234,9 +234,9 @@ const Home = () => {
             will be provided.
           </p>
         </div>
-        <div className="border rounded-md border-amber-400 ">
-          <p className="text-amber-400 mt-4 sm:ml-24 ml-36 text-7xl">
-            <SiSlideshare />
+        <div className="border rounded-md bg-white my-8 border-amber-400 ">
+          <p className="text-amber-400 mt-4  text-7xl">
+            <SiSlideshare className='mx-auto' />
           </p>
           <p className="text-3xl m-4 font-bold">Share</p>
           <p className="m-8">

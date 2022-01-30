@@ -41,8 +41,8 @@ export default function NavBar() {
         <div className="bg-amber-400 px-4 py-2 border border-xl rounded-xl hover:bg-sky-500 border-transparent"><NavItem content="About Us" href="/about-us" /></div>
         <div className="bg-amber-400 px-4 py-2 border border-xl rounded-xl hover:bg-sky-500 border-transparent"><NavItem content="Events" href="/events" /></div>
         <div className="bg-amber-400 px-4 py-2 border border-xl rounded-xl hover:bg-sky-500 border-transparent"><NavItem content="Contact Us" href="/contact" /></div>
-        <div className="bg-amber-400 px-4 py-2 border border-xl rounded-xl hover:bg-sky-500 border-transparent"><NavItem content="Pincode Search" href="/about" /></div>
-
+        <div className="bg-amber-400 px-4 py-2 border border-xl rounded-xl hover:bg-sky-500 border-transparent"><NavItem content="Rescue" href="/about" /></div>
+        <div className="bg-amber-400 px-4 py-2 border border-xl rounded-xl hover:bg-sky-500 border-transparent"><NavItem content="Adoption" href="/about" /></div>
       </ul>
     </nav>
   );
