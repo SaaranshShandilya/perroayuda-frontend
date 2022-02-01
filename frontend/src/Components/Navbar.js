@@ -3,13 +3,13 @@ import { HiOutlineMenuAlt2, HiOutlineMenuAlt3 } from "react-icons/hi";
 
 import NavItem from "./NavItem";
 import { Link } from "react-router-dom";
-import logo from '../images/logo.png'
+import logo from '../images/logo1.png'; 
 
 export default function NavBar() {
   const [showNav, setShowNav] = useState(false);
 
   return (
-    <nav className="md:flex justify-between items-center bg-white shadow-xl  bg-transparent  top-0 z-20">
+    <nav className="md:flex justify-between items-center bg-white shadow-xl  bg-white  top-0 z-20">
       <div className="flex items-center justify-between">
         <Link to="/">
           <img className="ml-32 p-2 w-28" src={logo} alt="logo" />

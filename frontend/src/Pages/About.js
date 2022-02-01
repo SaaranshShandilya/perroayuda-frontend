@@ -141,20 +141,20 @@ const About = () => {
       </div>
 
           <p className='text-center font-bold mt-8 text-white text-3xl'>Board of Directors</p>
-      <div className='sm:grid sm:grid-cols-3 space-y-8 gap-9 my-12 sm:mx-40'>
-          <div className='text-center bg-white p-4 rounded-xl'>
+      <div className='sm:grid sm:grid-cols-3 gap-9 my-12 sm:mx-40'>
+          <div className='text-center bg-white p-4 rounded-xl my-8'>
               <img className='w-1/4 rounded-full mx-auto ' src={Arpit} alt=''></img>
               <p className='my-2 text-xl text-zinc-800 font-semibold '>Arpit Mathur</p>
               <p>Director</p>
               <p className='mx-12 my-4 text-zinc-600'>I was working with RHA before and got inspired and ended up starting PWF and it feels like the right choice as it is fun, legal and the most important thing is myself feeling great about it.</p>
           </div>
-          <div className='text-center bg-white p-4 rounded-xl'>
+          <div className='text-center bg-white p-4 rounded-xl my-8'>
               <img className='w-1/4 h-1/4 rounded-full mx-auto ' src={Manav} alt=''></img>
               <p className='my-2 text-xl text-zinc-800 font-semibold '>Manav Yadav</p>
               <p>Director</p>
               <p className='mx-12 my-4 text-zinc-600'>I have always loved the voiceless creatures, I am here becuase I am against the animal cruelty done by some insane people who lack humanity.</p>
           </div>
-          <div className='text-center bg-white p-4 rounded-xl'>
+          <div className='text-center bg-white p-4 rounded-xl my-8'>
               <img className='w-1/4 h-1/4 rounded-full mx-auto ' src={Prabhjeet} alt=''></img>
               <p className='my-2 text-xl text-zinc-800 font-semibold '>Prabhjeet</p>
               <p>Director</p>
@@ -163,20 +163,20 @@ const About = () => {
       </div>
 
       <p className='text-center font-bold text-white text-3xl'>Advisors</p>
-      <div className='sm:grid sm:grid-cols-3 sm:gap-9 my-12 sm:mx-40 space-y-8'>
-          <div className='text-center bg-white p-4 rounded-xl'>
+      <div className='sm:grid sm:grid-cols-3 sm:gap-9 my-12 sm:mx-40 '>
+          <div className='text-center bg-white p-4 rounded-xl my-8'>
               <img className='w-1/4 h-1/2 rounded-full mx-auto ' src={Sakshi} alt=''></img>
               <p className='my-2 text-xl text-zinc-800 font-semibold '>Sakshi Garg</p>
               <p>Advisor</p>
             
           </div>
-          <div className='text-center bg-white p-4 rounded-xl'>
+          <div className='text-center bg-white p-4 rounded-xl my-8'>
               <img className='w-1/4  rounded-full mx-auto ' src={ambica} alt=''></img>
               <p className='mt-4 mb-2 text-xl text-zinc-800 font-semibold '>Ambica Sharma</p>
               <p>Advisor</p>
              
           </div>
-          <div className='text-center bg-white p-4 rounded-xl'>
+          <div className='text-center bg-white p-4 rounded-xl my-8'>
               <img className='w-1/4  rounded-full mx-auto ' src={InderPal} alt=''></img>
               <p className='mt-4 mb-2 text-xl text-zinc-800 font-semibold '>Inder Pal Singh</p>
               <p>Advisor</p>
@@ -189,7 +189,7 @@ const About = () => {
           <div >
             
           </div>
-          <div className='text-center bg-white p-4 rounded-xl'>
+          <div className='text-center bg-white p-4 rounded-xl my-8'>
               <img className='w-1/4  rounded-full mx-auto ' src={naman} alt=''></img>
               <p className='mt-4 mb-2 text-xl text-zinc-800 font-semibold '>Naman Gupta</p>
               <p>HR Head</p>
@@ -200,8 +200,8 @@ const About = () => {
       </div>
 
       <p className='text-center font-bold text-white text-3xl'>IT Heads</p>
-      <div className='sm:grid sm:grid-cols-2 sm:gap-9 my-12 sm:mx-40  space-y-8'>
-          <div className='text-center sm:mx-20 my-12  bg-white p-4 rounded-xl'>
+      <div className='sm:grid sm:grid-cols-2 sm:gap-9 my-12 sm:mx-40  '>
+          <div className='text-center sm:mx-20 my-12  bg-white p-4 rounded-xl '>
               <img className='w-1/4 h-1/2 rounded-full mx-auto ' src={praneet} alt=''></img>
               <p className='mt-4 mb-2 text-xl text-zinc-800 font-semibold '>Praneet Arya</p>
               <p>IT Head</p>
@@ -217,7 +217,7 @@ const About = () => {
       </div>
 
       <p className='text-center font-bold text-white text-3xl'>Graphic Head</p>
-      <div className='sm:grid sm;grid-cols-3 sm:gap-9 my-12 sm:mx-40'>
+      <div className='sm:grid sm:grid-cols-3 sm:gap-9 my-12 sm:mx-40 '>
           <div >
             
           </div>
@@ -247,14 +247,14 @@ const About = () => {
       </div>
 
       <p className='text-center font-bold text-white text-3xl'>Event Heads</p>
-      <div className='sm:grid sm:grid-cols-2 sm:gap-52 my-12 sm:mx-60 space-y-8'>
-          <div className='text-center bg-white p-4 rounded-xl'>
+      <div className='sm:grid sm:grid-cols-2 sm:gap-52 my-12 sm:mx-60'>
+          <div className='text-center bg-white p-4 rounded-xl my-8'>
               <img className='w-1/4 h-1/2 rounded-full mx-auto ' src={yash} alt=''></img>
               <p className='mt-4 mb-2 text-xl text-zinc-800 font-semibold '>Yash Sharma</p>
               <p>Event Head</p>
             
           </div>
-          <div className='text-center bg-white p-4 rounded-xl'>
+          <div className='text-center bg-white p-4 rounded-xl my-8'>
               <img className='w-1/4  rounded-full mx-auto ' src={narendranath} alt=''></img>
               <p className='mt-4 mb-2 text-xl text-zinc-800 font-semibold '>Narendranath Dandibohtla</p>
               <p>Event Head</p>
@@ -283,7 +283,7 @@ const About = () => {
           <div >
             
           </div>
-          <div className='text-center bg-white p-4 rounded-xl'>
+          <div className='text-center bg-white p-4 rounded-xl my-8'>
               <img className='w-1/4  rounded-full mx-auto ' src={sheryl} alt=''></img>
               <p className='mt-4 mb-2 text-xl text-zinc-800 font-semibold '>Sheryl Lazer</p>
               <p>R & D Head</p>
@@ -294,15 +294,15 @@ const About = () => {
       </div>
 
       <p className='text-center font-bold text-white text-3xl'>Administration </p>
-      <div className='sm:grid sm:grid-cols-2 sm:gap-52 space-y-8 my-12 sm:mx-60'>
-          <div className='text-center bg-white p-4 rounded-xl'>
+      <div className='sm:grid sm:grid-cols-2 sm:gap-52  my-12 sm:mx-60'>
+          <div className='text-center bg-white p-4 rounded-xl my-8'>
               <img className='w-1/4 h-1/2 rounded-full mx-auto ' src={mabel} alt=''></img>
               <p className='mt-4 mb-2 text-xl text-zinc-800 font-semibold '>Mabel Louis</p>
               <p>Administration Head</p>
             
           </div>
-          <div className='text-center bg-white p-4 rounded-xl'>
-              <img className='w-1/4  rounded-full mx-auto ' src={Siddharth} alt=''></img>
+          <div className='text-center bg-white p-4 rounded-xl my-8'>
+              <img className='w-1/4  rounded-full mx-auto '  src={Siddharth} alt=''></img>
               <p className='mt-4 mb-2 text-xl text-zinc-800 font-semibold '>Siddharth Shah</p>
               <p>Administration Head</p>
              
@@ -311,17 +311,17 @@ const About = () => {
       </div>
 
       <p className='text-center font-bold text-white text-3xl'>Legal </p>
-      <div className='sm:grid sm:grid-cols-2 sm:gap-52 my-12 sm:mx-60 space-y-8'>
-          <div className='text-center bg-white p-4 rounded-xl'>
+      <div className='sm:grid sm:grid-cols-2 sm:gap-52 my-12 sm:mx-60 '>
+          <div className='text-center bg-white p-4 rounded-xl my-8'>
               <img className='w-1/4  rounded-full mx-auto ' src={muskan} alt=''></img>
               <p className='mt-4 mb-2 text-xl text-zinc-800 font-semibold '>Muskan Sahni</p>
               <p>Legal Head</p>
             
           </div>
-          <div className='text-center bg-white p-4 rounded-xl'>
+          <div className='text-center bg-white p-4 rounded-xl my-8'>
               <img className='w-1/4 h-24  rounded-full mx-auto ' src={kamal} alt=''></img>
               <p className='mt-4 mb-2 text-xl text-zinc-800 font-semibold '>Kamal Nayan Tiwari</p>
-              <p>Legal Head</p>
+              <p>Co-Legal Head</p>
              
           </div>
           
@@ -332,7 +332,7 @@ const About = () => {
           <div >
             
           </div>
-          <div className='text-center bg-white p-4 rounded-xl'>
+          <div className='text-center bg-white p-4 rounded-xl my-8'>
               <img className='w-1/4  rounded-full mx-auto ' src={niyati} alt=''></img>
               <p className='mt-4 mb-2 text-xl text-zinc-800 font-semibold '>Niyati Advani</p>
               <p>Fundraising Head</p>
@@ -343,14 +343,14 @@ const About = () => {
       </div>
 
       <p className='text-center font-bold text-white text-3xl'>Public Relations </p>
-      <div className='sm:grid sm:grid-cols-2 sm:gap-52 my-12 sm:mx-60 space-y-8'>
-          <div className='text-center bg-white p-4 rounded-xl'>
+      <div className='sm:grid sm:grid-cols-2 sm:gap-52 my-12 sm:mx-60 '>
+          <div className='text-center bg-white p-4 rounded-xl my-8'>
               <img className='w-1/4  rounded-full mx-auto ' src={navya} alt=''></img>
               <p className='mt-4 mb-2 text-xl text-zinc-800 font-semibold '>Navya Jain</p>
               <p>PR Head</p>
             
           </div>
-          <div className='text-center bg-white p-4 rounded-xl'>
+          <div className='text-center bg-white p-4 rounded-xl my-8'>
               <img className='w-1/4 h-24  rounded-full mx-auto ' src={vanshika} alt=''></img>
               <p className='mt-4 mb-2 text-xl text-zinc-800 font-semibold '>Vanshika Pathak</p>
               <p>PR Head</p>

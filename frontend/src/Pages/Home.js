@@ -201,8 +201,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="pt-2 mb-8 bg-emerald-300">
-        <img src={help} alt="" className=""></img>
+      <div className='sm:mx-40 my-8 text-center'>
+        <p className='text-white font-bold text-6xl'>How to help?</p>
       </div>
       <div className="sm:grid sm:grid-cols-4 sm:gap-8 text-center sm:mx-48  my-24">
         <div className="border rounded-md bg-white my-8 border-amber-400 ">
