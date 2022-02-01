@@ -1,6 +1,6 @@
 import React from "react";
 import { GrNotes } from "react-icons/gr";
-import logo from "../images/logo.png";
+import logo from "../images/logo1.png";
 import { GrLocation } from "react-icons/gr";
 import { BsTelephone } from "react-icons/bs";
 import { GrFacebookOption } from "react-icons/gr";

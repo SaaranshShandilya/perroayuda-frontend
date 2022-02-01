@@ -30,7 +30,7 @@ const Mission = () => {
             zIndex: "-1",
           }} src={dog2}></img>
           <div className="bg-zinc-800 text-center bg-opacity-60 ">
-          <h1 className="text-white font-bold text-4xl pt-16 ml-8 pt-40"> Our Mission </h1>
+          <h1 className="text-white font-bold text-4xl  ml-8 pt-40"> Our Mission </h1>
           <p className=" text-white text-xl mt-8 ml-8 pb-40">
            Home/Our Mission
           </p>
